@@ -1,0 +1,97 @@
+body
+{
+    background-color: black;
+    background-image: url(../images/back1.jpg);
+    background-repeat: no-repeat;
+    
+}
+#container
+{
+    display: inline-flex;
+}
+#formulaire
+{
+    width:500px;
+    margin:0 auto;
+    margin-top:3%;
+    margin-left: 100px;
+    
+}
+form
+{
+    width:100%;
+    padding: 40px;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1
+{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    color: dimgrey;
+}
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid dimgrey;
+    box-sizing: border-box;
+}
+input[type=submit] 
+{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover 
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#left
+{
+    border: 1px solid darkslategray;
+    background-color: whitesmoke;
+    width:300px;
+    height: 910px;
+    margin:0 auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2
+{
+    margin-left: 50px;
+    color: darkslategray;
+}
+#login
+{
+    margin-left: 0px;
+}
+a
+{
+    
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+}
+a:hover
+{
+    border: 1px solid dimgrey;
+    color: dimgrey;
+}
+b
+{
+    color: white;
+}
