@@ -1,0 +1,129 @@
+.container-lg, .container-sm{
+    background-repeat: no-repeat;
+    color:white;
+    margin-top:2px;
+    background-color: grey;
+    border:1px solid white;
+    margin-bottom:2px;
+  }
+  #header{
+    padding:4px;
+    background-color:grey;
+    margin-bottom:50px;
+  }
+  footer{
+    padding:4px;
+    background-color:black;
+    margin-top:50px;
+    display: inline-block;
+    width:1140px;
+    float:left;
+   
+  }
+  #row_body{
+    color:black;
+  }
+  #logo_icon{
+    margin-left:15px;
+    background-color: grey;
+  }
+#logo_icon img {
+  width: 80px;
+  height: 80px;
+}
+nav{
+  border:1px inset #e9ecef;
+  border-radius: 4px;
+  color:black;
+  background-color:#e9ecef;
+  margin-left:68px;
+}
+.navbar-nav{
+  width:100px;
+  margin-left:-10px
+}
+.navbar-nav .fas{
+  width:20px;
+  font-size: 20px;
+}
+#navbarContent h4{
+  font-size:20px;
+  color:black;
+  margin-left:;
+  margin-right: auto;
+  font-family:apperry chanchery;
+}
+#container-left img{
+  width: 280px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#container-left h3{
+  text-align: center;
+}
+#container-right .card{
+  background-color:#e9ecef;
+  height: 437px;
+}
+#container-right button{
+  border: 1px solid darkred;
+  background-color: darkred;
+}
+#button_user_administrateur, #button_user_invite{
+  margin-left: auto;
+  margin-right:auto;
+}
+#button_user_administrateur{
+  margin-top: 50px;
+  margin-bottom:30px;
+}
+#button_user_invite{
+  margin-top:-60px
+}
+#button_user_administrateur h3{
+  color:white;
+}
+#button_user_invite h3{
+  color:white;
+}
+#button_user_administrateur .fas{
+  color:white;
+}
+#button_user_invite .fas{
+  color:white;
+}
+#container-right button:hover{
+   border: 1px solid darkred;
+   text-decoration: none;
+   width:500px;
+ 
+}
+footer .col-lg-4{
+  display: inline-block;
+}
+.social-buttons .list-inline-item a{
+  width: 30px;
+  height: 30px;
+  color:aquamarine;
+}
+.quick-links a .fa-question-circle{
+  color:aquamarine;
+}
+.quick-links a{
+  color:aquamarine;
+}
+.copyright{
+  color:aquamarine;
+}
+.social-buttons .fa-instagram:hover{
+  color:red;
+  width:30px;
+  height: 30px;
+}
+.social-buttons .fa-facebook-f:hover{
+  color:blue;
+  width:30px;
+  height: 30px;
+}
