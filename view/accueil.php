@@ -8,7 +8,7 @@
             <meta content="" name="description">
             <meta content="" name="keywords">
             <!-- page css -->
-            <link rel="stylesheet" type="text/css" href="../public/css/accueil.css">
+            <link rel="stylesheet" href="../public/css/accueil.css">
             <!-- Favicons -->
             <link href="../public/images/logo.png" rel="icon">
             <!-- Google Fonts -->
@@ -19,87 +19,76 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         </head>
         <body>
-            <div class="container-lg container-sm">
-                <div class="row" id="header">
-                    <div class="col-lg-2 col-sm-2" id="logo_icon">
-                        <img src="../public/images/logo.png" type="images/png" width="60px" height="60px"/>
-                    </div>
-                    <nav class="col-9 navbar navbar-expand navbar-dark">
-                        <a class="navbar-brand" href="#">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                            <span class="navbar-toogler-icon"></span>
-                        </button>
-                        <div id="navbarContent" class="collapse navbar-collapse">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <i class="fas fa-arrow-circle-left" width="40px" height="40px" style="color:darkblue;"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <i class="fas fa-arrow-circle-right" width="40px" height="40px" style="color:darkblue"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="navbarContent" class="collapse navbar-collapse">
-                            <p>
-                                <h4>
-                                    MINI-CLASSROOM
-                                </h4>
-                            </p>
-                        </div>
-                        <div id="navbarContent" class="collapse navbar-collapse">
-                            <figure>
-                                <img src="allo.png"></img>
-                            </figure>
-                        </div> 
-                    </nav>
+            <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                 <a class="navbar-brand" href="#">
+                     <img class="rounded float-left" alt="responsive image" src="../public/images/logo.png" right="60px" height="60px">
+                 </a>
+                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="navbar-collapse collapse ml-5" id="navbarNavDropdown" style="">
+                  <ul class="navbar-nav ml-5">
+                     <li class="nav-item ml-5">
+                         <a class="nav-link" href="#back-end en attente">
+                             <i class="fas fa-arrow-circle-left" width="30px" height="30px" style="font-size: 34px;" aria-hidden="true"></i>
+                             <span class="sr-only"></span>
+                         </a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#back-end en attente">
+                             <i class="fas fa-arrow-circle-right" width="30px" height="30px" style="font-size: 34px;" aria-hidden="true"></i>
+                         </a>
+                     </li>
+                     <li class="nav-item ml-5">
+                         <span class="navbar-text">
+                             <h1 class="text-success"> <strong>Mini Classroom</strong> </h1>
+                         </span>
+                     </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle ml-5" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <img class="rounded img-thumbnail" alt="responsive image" src="#back en attente">
+                         </a>
+                            <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">
+                                  <i class="fas fa-tools" aria-hidden="true">Paramètres</i>
+                                  </a>
+                                  <a class="dropdown-item" href="#">
+                                  <i class="fas fa-user" aria-hidden="true">Se déconnecter</i>
+                                  </a>                     
+                           </div>
+                     </li>
+                  </ul>
                 </div>
+            </nav>
                <div class="row" id="row_body">
-                   <div class="col-sm-12 col-lg-4" id="container-left">
+                   <div class="col col-sm-12 col-lg-4" id="container-left">
                         <div class="jumbotron">
-                            <h3>
+                            <h3 class="text-success">
                                 Page d'Accueil..
                             </h3>
-                            <figure>
-                                <img class="logo_mini_classroom" src="../public/images/logo.png" width="60px" height="60px">
-                            </figure>
+                                <img class="image-fluid" alt="responsive image" src="../public/images/logo.png" width="150px" height="150px">
                         </div>
                    </div>
-                   <div class="col-sm-12 col-lg-8" id="container-right">
-                       <div class="card">
-                            <div class="col-lg-8 col-sm-12" id="button_user_administrateur">
-                                <div class="card-body">
-                                    <button type="button" class="btn btn-default btn-block">
-                                        <a href="students.php">
-                                            <i class="fas fa-user-graduate" width="30px" height="30px"></i>
-                                            <h3>
-                                                Etudiants
-                                            </h3>
-                                        </a>
-                                    </button>
-                                </div>
+                   <div class="col col-sm-12 col-lg-8" id="container-right">
+                        <div class="jumbotron">
+                            <div class="btn-vertical">
+                                <button type="button" class="btn btn-success btn-lg btn-block">
+                                    <i class="fas fa-user-shield" aria-hidden="true">
+                                        Etudiants
+                                    </i>
+                                </button>
+                                <button type="button" class="btn btn-success btn-lg btn-block">
+                                    <i class="fas fa-chalkboard-teacher" aria-hidden="true">
+                                        Proffesseur
+                                    </i>
+                                </button>
                             </div>
-                            <div class="col-lg-8 col-sm-12" id="button_user_invite">
-                                <div class="card-body">
-                                    <button type="button" class="btn btn-default btn-block">
-                                        <a href="proffesseur.php">
-                                           <i class="fas fa-user-tie"></i>
-                                            <h3>
-                                                Proffesseurs
-                                            </h3>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        </div> 
                    </div>
                </div>
+               <footer class="footer footer-expand-lg bg-dark footer-dark" height="200px">
                <div class="row text-center">
-               <footer class="footer footer-expand footer-dark">
                    <div class="col-lg-4 col-sm-4 col-md-4 box">
                         <span class="copyright quick-links">
                             Copyright Mini-classroom
@@ -109,12 +98,12 @@
                        <ul class="list-inline social-buttons">
                            <li class="list-inline-item">
                                 <a href="#">
-                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-instagram" width="30px" height="30px" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
@@ -123,7 +112,7 @@
                        <ul class="list-inline quick-links">
                            <li class="list-inline-item">
                                <a href="aide.php">
-                                    <i class="fas fa-question-circle"></i>
+                                    <i class="fas fa-question-circle" aria-hidden="true"></i>
                                </a>
                            </li>
                            <li class="list-inline-item">
@@ -133,10 +122,11 @@
                            </li>
                        </ul>
                     </div>
-                </footer>
-                </div>        
+                </div>
+                </footer> 
+                       
             </div>
-        </body>
+    </body>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
